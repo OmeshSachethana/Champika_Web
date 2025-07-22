@@ -1,5 +1,5 @@
 [build]
-  publish = "."  # publish the root folder
+  publish = "." 
 
 [[redirects]]
   from = "/*"
