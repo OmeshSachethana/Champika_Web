@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champika Exporters (Pvt) Ltd - Manpower Recruitment & HR Consultancy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header with Navigation -->
+<header class="navbar-custom bg-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+            <!-- Logo Section -->
+            <div class="flex items-center space-x-3">
+                <img src="images/logo.png" alt="Champika Exporters Logo" class="logo-img h-12 w-auto">
+                <div class="logo-text">
+                    <h1 class="text-2xl font-bold text-gray-800 logo-title">Champika Exporters</h1>
+                    <p class="text-sm text-gray-600 logo-subtitle">Est. 1979 | License No: 110</p>
+                </div>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:flex items-center space-x-8">
+                <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition duration-300">Home</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition duration-300">About</a>
+                <a href="#expertise" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition duration-300">Expertise</a>
+                <a href="#services" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition duration-300">Services</a>
+                <a href="#destinations" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition duration-300">Destinations</a>
+                <a href="#jobs" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition duration-300">Jobs</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition duration-300">Contact</a>
+                
+                <!-- Register Button -->
+                <button class="register-btn bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2.5 rounded-full font-semibold hover:shadow-lg transition-all duration-300 flex items-center space-x-2">
+                    <i class="fas fa-user-plus text-sm"></i>
+                    <span>Register</span>
+                </button>
+            </nav>
+            
+            <!-- Mobile Menu Button -->
+            <button class="lg:hidden mobile-menu-btn text-gray-700 p-2 rounded-lg hover:bg-gray-100 transition duration-300" id="mobile-menu-btn">
+                <div class="hamburger">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </div>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu lg:hidden hidden" id="mobile-menu">
+            <div class="mobile-menu-content bg-white border-t border-gray-200 py-4">
+                <div class="mobile-nav-links space-y-1">
+                    <a href="#home" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition duration-300 rounded-lg mx-2">
+                        <i class="fas fa-home w-5 mr-3"></i>Home
+                    </a>
+                    <a href="#about" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition duration-300 rounded-lg mx-2">
+                        <i class="fas fa-info-circle w-5 mr-3"></i>About
+                    </a>
+                    <a href="#expertise" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition duration-300 rounded-lg mx-2">
+                        <i class="fas fa-award w-5 mr-3"></i>Expertise
+                    </a>
+                    <a href="#services" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition duration-300 rounded-lg mx-2">
+                        <i class="fas fa-cogs w-5 mr-3"></i>Services
+                    </a>
+                    <a href="#destinations" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition duration-300 rounded-lg mx-2">
+                        <i class="fas fa-globe w-5 mr-3"></i>Destinations
+                    </a>
+                    <a href="#jobs" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition duration-300 rounded-lg mx-2">
+                        <i class="fas fa-briefcase w-5 mr-3"></i>Jobs
+                    </a>
+                    <a href="#contact" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 font-medium transition duration-300 rounded-lg mx-2">
+                        <i class="fas fa-envelope w-5 mr-3"></i>Contact
+                    </a>
+                </div>
+                
+                <!-- Mobile Register Button -->
+                <div class="px-4 pt-4 border-t border-gray-100 mt-4">
+                    <button class="mobile-register-btn w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register Now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+   <!-- Banner Section -->
+<section id="home" class="banner-section relative h-screen">
+    <div class="banner-video absolute inset-0">
+        <video autoplay muted loop playsinline class="w-full h-full object-cover">
+            <source src="images/web banner.mp4" type="video/mp4">
+            <!-- Fallback image if video doesn't load -->
+            <img src="images/2.png" alt="Champika Exporters - Global Workforce Solutions" class="w-full h-full object-cover">
+        </video>
+        <div class="banner-overlay absolute inset-0 bg-black/40"></div>
+    </div>
+    
+    <div class="banner-content relative z-10 h-full flex items-center">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl text-center mx-auto text-white">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    PIONEERING HUMAN RESOURCE EXCELLENCE
+                </h1>
+                
+                <p class="text-xl md:text-2xl mb-4 text-white/90 tracking-wider">
+                    <span class="font-bold text-amber-400">EST. 1979</span>
+                    <span class="opacity-70 mx-2">|</span>
+                    <span class="font-bold text-amber-400">LICENSE NO: 110</span>
+                </p>
+                <p class="text-lg md:text-xl mb-8 text-blue-200">
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#jobs" class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 flex items-center justify-center space-x-2">
+                        <i class="fas fa-search"></i>
+                        <span>Explore Jobs</span>
+                    </a>
+                    <a href="#contact" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300 flex items-center justify-center space-x-2">
+                        <i class="fas fa-phone"></i>
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <!-- About Section -->
+<section id="about" class="about-section py-20 bg-white relative overflow-hidden">
+    <div class="container mx-auto px-4">
+        <!-- About Content Grid -->
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="grid grid-cols-12 gap-0">
+                 <div class="col-span-2 bg-yellow-400"></div>
+                 <div class="col-span-10">
+                    <img src="images/about.jpg" alt="About Champika Exporters" class="w-full h-auto object-cover">
+                 </div>
+            </div>
+            <div>
+                <h2 class="text-4xl font-bold text-gray-800 mb-6">Our Routes</h2>
+                <p class="text-gray-600 leading-relaxed mb-6">
+                   With it’s inception in 1979 , Champika Exports has been placed as one of Sri Lanka’s most reliable and trustworthy human capitol providers to the world. With a strong market presence of 46 years Champika Exports has full filled  labor market demands spanning across multinational companies to personalized needs.
+                </p>
+                <p class="text-lg font-semibold text-gray-700">
+                    Since 1979 in Sri Lanka - Building bridges between talent and opportunity across the globe
+                </p>
+            </div>
+        </div>
+
+        <!-- About Stats -->
+        <div class="about-stats mt-16">
+            <div class="stats-container bg-gradient-to-r from-blue-600 via-purple-600 to-green-600 rounded-2xl p-8 md:p-12">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-white max-w-4xl mx-auto">
+                    <div class="stat-item">
+                        <div class="stat-number text-3xl md:text-4xl font-bold mb-2 counter" data-target="46">46</div>
+                        <div class="stat-label text-sm md:text-base opacity-90">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number text-3xl md:text-4xl font-bold mb-2 counter" data-target="17500">17500</div>
+                        <div class="stat-label text-sm md:text-base opacity-90">Candidates Placed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number text-3xl md:text-4xl font-bold mb-2 counter" data-target="10">10</div>
+                        <div class="stat-label text-sm md:text-base opacity-90">Countries Served</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+    </div>
+
+
+
+
+
+
+
+<section id="ReadytoStart" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            
+            <div class="text-center lg:text-left">
+                <h3 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Ready to Start Your Journey?</h3>
+                <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
+                    Join thousands of successful candidates who have found their dream careers through our professional recruitment services.
+                </p>
+                <div class="cta-buttons flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <button class="cta-btn-primary bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Join as Candidate</span>
+                    </button>
+                    <button class="cta-btn-secondary border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center justify-center space-x-2">
+                        <i class="fas fa-building"></i>
+                        <span>Partner with Us</span>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img src="images/about2.jpg" alt="Ready to start your journey" class="w-full h-auto object-cover rounded-lg shadow-lg">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="mvv" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="relative rounded-lg shadow-lg hover-lift fade-in-up delay-2 bg-cover bg-center" style="background-image: url('images/vision.jpg');">
+                <div class="absolute inset-0 bg-black/60 rounded-lg"></div>
+                <div class="relative p-8 flex flex-col h-full">
+                    <div class="text-center mb-6">
+                        <div class="bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-eye text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white">Our Vision</h3>
+                    </div>
+                    <p class="text-gray-200 text-justify">
+                        By uniting innovative technology, market intelligence, and human-centered values, we’re revolutionizing recruitment to deliver impactful global employment solutions.
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative rounded-lg shadow-lg hover-lift fade-in-up delay-1 bg-cover bg-center" style="background-image: url('images/mission.jpg');">
+                <div class="absolute inset-0 bg-black/70 rounded-lg"></div>
+                 <div class="relative p-8 flex flex-col h-full">
+                    <div class="text-center mb-6">
+                        <div class="bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-bullseye text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white">Our Mission</h3>
+                    </div>
+                    <p class="text-gray-200 text-justify">
+                        To be Sri Lanka's leading human resource supplier and the commitment of providing the best human talent across all sectors through a people centric approach.
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative rounded-lg shadow-lg hover-lift fade-in-up delay-3 bg-cover bg-center" style="background-image: url('images/Competencies.jpg');">
+                <div class="absolute inset-0 bg-black/60 rounded-lg"></div>
+                 <div class="relative p-8 flex flex-col h-full">
+                    <div class="text-center mb-6">
+                        <div class="bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-heart text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white">Core Competencies</h3>
+                    </div>
+                    <p class="text-gray-200 text-justify">
+                        Our core competencies are built on one simple principle: “Human capital is the most pivotal investment in any industry and discipline.” We strive to execute the best talent required for our clients and genuinely foster respectable human relationships for the talent pool who trusts Champika Exports for their overseas job dream.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Our Expertise Section -->
+    <section id="expertise" class="py-16 bg-white" style="padding-top: 5rem;">
+
+
+        <div class="container mx-auto px-4">
+            <!-- Section Header -->
+            <div class="text-center mb-16">
+                
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                    Why Employers Should 
+                    <span class="text-gradient bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Trust Us</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our proven track record and comprehensive approach make us the preferred partner for international job market.
+                </p>
+            </div>
+
+            <!-- Trust Points Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Trust Point 1 -->
+                <div class="trust-card bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
+                    <div class="text-center mb-6">
+                        <div class="trust-icon w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <i class="fas fa-industry text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">In-Depth Industry Experience</h3>
+                    </div>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        With over four decades of specialized experience in sourcing manpower across diverse industries, we understand the unique requirements of each sector and deliver candidates who exceed expectations.
+                    </p>
+                </div>
+
+                <!-- Trust Point 2 -->
+                <div class="trust-card bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
+                    <div class="text-center mb-6">
+                        <div class="trust-icon w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <i class="fas fa-check-double text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Quality Assurance in Recruitment</h3>
+                    </div>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Our rigorous screening process ensures only the most qualified candidates reach you. We conduct thorough background checks, skill assessments, and interviews to guarantee quality work force.
+                    </p>
+                </div>
+
+                <!-- Trust Point 3 -->
+                <div class="trust-card bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
+                    <div class="text-center mb-6">
+                        <div class="trust-icon w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <i class="fas fa-passport text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Complete Visa & Government Protocols</h3>
+                    </div>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        We handle all visa processing and governmental protocols, ensuring full compliance with international labor laws and immigration requirements for seamless candidate deployment.
+                    </p>
+                </div>
+
+                <!-- Trust Point 4 -->
+                <div class="trust-card bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
+                    <div class="text-center mb-6">
+                        <div class="trust-icon w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <i class="fas fa-tools text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Trade Testing of Individuals</h3>
+                    </div>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        Our comprehensive trade testing ensures candidates possess the technical skills required for their roles, minimizing training time and maximizing productivity from day one.
+                    </p>
+                </div>
+
+                <!-- Trust Point 5 -->
+                <div class="trust-card bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
+                    <div class="text-center mb-6">
+                        <div class="trust-icon w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <i class="fas fa-plane-departure text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Pre-Departure Orientation</h3>
+                    </div>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        We provide comprehensive pre-departure orientation covering cultural awareness, workplace expectations, and local customs to ensure smooth integration and immediate productivity.
+                    </p>
+                </div>
+
+                <!-- Trust Point 6 -->
+                <div class="trust-card bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
+                    <div class="text-center mb-6">
+                        <div class="trust-icon w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                            <i class="fas fa-handshake text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Liaising on Behalf of Principals</h3>
+                    </div>
+                    <p class="text-gray-600 text-center leading-relaxed">
+                        We act as your trusted representative throughout the entire process, managing communications, resolving issues, and ensuring all parties remain informed and satisfied.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+<section id="services" class="py-20 bg-white" style="padding-top: 0rem;">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <div class="section-badge inline-flex items-center px-4 py-2 bg-green-50 text-green-600 rounded-full text-sm font-semibold mb-4">
+                <i class="fas fa-tasks mr-2"></i>
+                Our Process
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                A Simplified and Optimized Process
+            </h2>
+            <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+                From beginning to end, our comprehensive recruitment process involves active engagement by our team with both candidates and clients to ensure the right match.
+            </p>
+        </div>
+
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-x-12 gap-y-16">
+
+                <div class="flex items-start space-x-6">
+                    <div class="text-7xl font-bold text-green-300 flex-shrink-0 mt-[-10px]">01</div>
+                    <div class="pt-2">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Job Order Review & Business Insight</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            The principal sends a job order, then reviews and analyzes to gain insight into the business environment, company culture, compensation, and other relevant factors.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-6">
+                    <div class="text-7xl font-bold text-blue-300 flex-shrink-0 mt-[-10px]">02</div>
+                    <div class="pt-2">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">SLBFE Approval & Legal Compliance</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We obtain the approval of the SLBFE (Sri Lanka Bureau of Foreign Employment) for the particular job order, to ensure the processes are legal and up to the government requirements.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-6">
+                    <div class="text-7xl font-bold text-purple-300 flex-shrink-0 mt-[-10px]">03</div>
+                    <div class="pt-2">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Targeted Job Promotion Across Media</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We leverage our broad network of newspapers, TV channels, and social media platforms to promote the job opening to potential candidates, highlighting the job description.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-6">
+                    <div class="text-7xl font-bold text-orange-300 flex-shrink-0 mt-[-10px]">04</div>
+                    <div class="pt-2">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Candidate Screening & Preliminary Interviews</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We screen and evaluate candidate resumes based on the job requirements, client specifications, and our quality standards, including reference checks. Shortlisted applicants then undergo preliminary interviews by our trained professionals to identify the most suitable candidates.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-6">
+                    <div class="text-7xl font-bold text-teal-300 flex-shrink-0 mt-[-10px]">05</div>
+                    <div class="pt-2">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Job Offer & Documentation Preparation</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            After reviewing the finalized candidates, the client extends a job offer. We collaborate with the selected candidate to prepare and organize the necessary documentation for overseas employment.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex items-start space-x-6">
+                    <div class="text-7xl font-bold text-indigo-300 flex-shrink-0 mt-[-10px]">06</div>
+                    <div class="pt-2">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Pre-Departure Processing & Final Clearance</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                           We guide candidates through pre-departure procedures, including medical exams, visa processing, and certificate attestation. The team handles SLBFE (Sri Lanka Bureau of Foreign Employment) registration and final approvals, assists with travel arrangements, and oversees the candidate's departure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="expertise" class="py-16 text-white" style="padding-top: 5rem; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div class="container mx-auto px-4" >
+        <div class="text-center mb-12 fade-in-up">
+            <h2 class="text-4xl font-bold mb-4">Our Expertise</h2>
+            <p class="text-xl">Specialized recruitment across healthcare, engineering, education, hospitality, and technical industries</p>
+        </div>
+        
+        <div class="mb-12 fade-in-up delay-1">
+            <p class="text-center max-w-4xl mx-auto mb-8">
+                At Champika Exporters (Pvt) Ltd, we are more than a recruitment agency — we are a strategic partner for global human resource needs. With over four decades of experience, we have developed unmatched expertise in sourcing, evaluating, and placing the most suitable candidates across a diverse range of roles and industries.
+            </p>
+            <p class="text-center max-w-4xl mx-auto">
+                Our well-maintained, cloud-based candidate database enables us to act swiftly — reducing recruitment delays for our clients. From health professionals to engineers, educators, and support staff, we ensure every candidate is screened, trained, and matched accurately to employer needs.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="py-16 bg-white" style="padding-top:5rem">
+    <div class="container mx-auto px-4">
+       
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <div class="group relative block bg-black rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img src="images/gallery/1.jpg" alt="Sri Lankan chef placed in a global hotel chain" class="w-full h-60 object-cover transform group-hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+
+            </div>
+
+            <div class="group relative block bg-black rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img src="images/gallery/2.jpg" alt="Nurse providing care in an overseas hospital" class="w-full h-60 object-cover transform group-hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+
+            </div>
+            
+            <div class="group relative block bg-black rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img src="images/gallery/3.jpg" alt="Engineer working on an international project site" class="w-full h-60 object-cover transform group-hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+
+            </div>
+
+            <div class="group relative block bg-black rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img src="images/gallery/4.jpg" alt="Construction workers at an overseas building site" class="w-full h-60 object-cover transform group-hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="services4" class="py-20 bg-white" style="padding-top: 0rem;">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-800">Industries We Serve</h2>
+            <p class="text-lg text-gray-500 mt-2">Specialized recruitment across diverse sectors</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-y-12 max-w-4xl mx-auto">
+            
+            <div data-modal-target="#modal-engineering-new" class="modal-trigger text-center cursor-pointer group">
+                <div class="mx-auto bg-teal-100 w-24 h-24 rounded-full flex items-center justify-center group-hover:shadow-lg group-hover:scale-105 transition-all">
+                    <i class="fas fa-cogs text-teal-500 text-4xl"></i>
+                </div>
+                <h3 class="font-semibold text-gray-700 mt-4 text-lg">Engineering</h3>
+                <p class="text-sm font-semibold text-blue-600 mt-1 group-hover:underline">
+                    See More <i class="fas fa-arrow-right text-xs ml-1"></i>
+                </p>
+            </div>
+
+            <div data-modal-target="#modal-construction-new" class="modal-trigger text-center cursor-pointer group">
+                <div class="mx-auto bg-yellow-100 w-24 h-24 rounded-full flex items-center justify-center group-hover:shadow-lg group-hover:scale-105 transition-all">
+                    <i class="fas fa-hard-hat text-yellow-500 text-4xl"></i>
+                </div>
+                <h3 class="font-semibold text-gray-700 mt-4 text-lg">Construction</h3>
+                <p class="text-sm font-semibold text-blue-600 mt-1 group-hover:underline">
+                    See More <i class="fas fa-arrow-right text-xs ml-1"></i>
+                </p>
+            </div>
+
+            <div data-modal-target="#modal-healthcare-new" class="modal-trigger text-center cursor-pointer group">
+                <div class="mx-auto bg-red-100 w-24 h-24 rounded-full flex items-center justify-center group-hover:shadow-lg group-hover:scale-105 transition-all">
+                    <i class="fas fa-heartbeat text-red-500 text-4xl"></i>
+                </div>
+                <h3 class="font-semibold text-gray-700 mt-4 text-lg">Healthcare</h3>
+                <p class="text-sm font-semibold text-blue-600 mt-1 group-hover:underline">
+                    See More <i class="fas fa-arrow-right text-xs ml-1"></i>
+                </p>
+            </div>
+
+            <div data-modal-target="#modal-education-new" class="modal-trigger text-center cursor-pointer group">
+                <div class="mx-auto bg-green-100 w-24 h-24 rounded-full flex items-center justify-center group-hover:shadow-lg group-hover:scale-105 transition-all">
+                    <i class="fas fa-graduation-cap text-green-500 text-4xl"></i>
+                </div>
+                <h3 class="font-semibold text-gray-700 mt-4 text-lg">Education</h3>
+                <p class="text-sm font-semibold text-blue-600 mt-1 group-hover:underline">
+                    See More <i class="fas fa-arrow-right text-xs ml-1"></i>
+                </p>
+            </div>
+
+            <div data-modal-target="#modal-hospitality-new" class="modal-trigger text-center cursor-pointer group">
+                <div class="mx-auto bg-blue-100 w-24 h-24 rounded-full flex items-center justify-center group-hover:shadow-lg group-hover:scale-105 transition-all">
+                    <i class="fas fa-concierge-bell text-blue-500 text-4xl"></i>
+                </div>
+                <h3 class="font-semibold text-gray-700 mt-4 text-lg">Hospitality</h3>
+                <p class="text-sm font-semibold text-blue-600 mt-1 group-hover:underline">
+                    See More <i class="fas fa-arrow-right text-xs ml-1"></i>
+                </p>
+            </div>
+
+            <div data-modal-target="#modal-transport-new" class="modal-trigger text-center cursor-pointer group">
+                <div class="mx-auto bg-purple-100 w-24 h-24 rounded-full flex items-center justify-center group-hover:shadow-lg group-hover:scale-105 transition-all">
+                    <i class="fas fa-truck-moving text-purple-500 text-4xl"></i>
+                </div>
+                <h3 class="font-semibold text-gray-700 mt-4 text-lg">Transport</h3>
+                <p class="text-sm font-semibold text-blue-600 mt-1 group-hover:underline">
+                    See More <i class="fas fa-arrow-right text-xs ml-1"></i>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div id="new-modals-container">
+    <div id="modal-engineering-new" class="modal hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col">
+            <header class="flex justify-between items-center p-5 border-b"><h2 class="text-2xl font-bold text-teal-500">Engineering Roles</h2><button class="modal-close-btn text-3xl font-light text-gray-500 hover:text-gray-800">&times;</button></header>
+            <div class="p-8 overflow-y-auto"><ul class="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-gray-700">
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Mechanical Engineers</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Electrical Engineers</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Lathe men</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Fitters</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Electricians</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Field engineer</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Welders</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Painters</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Scaffolders</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Machine Operators</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Technical Officers</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>BIM coordinator</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-teal-400 mr-3 mt-1"></i><span>Site workers and laborers</span></li>
+            </ul></div>
+        </div>
+    </div>
+
+    <div id="modal-construction-new" class="modal hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col">
+            <header class="flex justify-between items-center p-5 border-b"><h2 class="text-2xl font-bold text-yellow-500">Construction Roles</h2><button class="modal-close-btn text-3xl font-light text-gray-500 hover:text-gray-800">&times;</button></header>
+            <div class="p-8 overflow-y-auto"><ul class="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-gray-700">
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Project manager</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Project engineer</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Civil Engineers</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Excavator Operators</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Construction technician</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Superintendent</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Brick Layers</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Masons</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Quantity Surveyors</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-yellow-400 mr-3 mt-1"></i><span>Technical Officers</span></li>
+            </ul></div>
+        </div>
+    </div>
+    
+    <div id="modal-healthcare-new" class="modal hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col">
+            <header class="flex justify-between items-center p-5 border-b"><h2 class="text-2xl font-bold text-red-500">Healthcare Roles</h2><button class="modal-close-btn text-3xl font-light text-gray-500 hover:text-gray-800">&times;</button></header>
+            <div class="p-8 overflow-y-auto"><ul class="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-gray-700">
+                <li class="flex"><i class="fas fa-check-circle text-red-400 mr-3 mt-1"></i><span>License Practical Nurse</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-red-400 mr-3 mt-1"></i><span>Registered Nurse</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-red-400 mr-3 mt-1"></i><span>Radiologic Technician</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-red-400 mr-3 mt-1"></i><span>Medical Laboratory Technician</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-red-400 mr-3 mt-1"></i><span>Medical Assistant</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-red-400 mr-3 mt-1"></i><span>Home Health Care Aide</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-red-400 mr-3 mt-1"></i><span>Physician Assistant</span></li>
+            </ul></div>
+        </div>
+    </div>
+
+    <div id="modal-education-new" class="modal hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col">
+            <header class="flex justify-between items-center p-5 border-b"><h2 class="text-2xl font-bold text-green-500">Education Roles</h2><button class="modal-close-btn text-3xl font-light text-gray-500 hover:text-gray-800">&times;</button></header>
+            <div class="p-8 overflow-y-auto"><ul class="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-gray-700">
+                <li class="flex"><i class="fas fa-check-circle text-green-400 mr-3 mt-1"></i><span>Principals</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-green-400 mr-3 mt-1"></i><span>Vice Principal</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-green-400 mr-3 mt-1"></i><span>Academic Advisor</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-green-400 mr-3 mt-1"></i><span>High School Teacher</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-green-400 mr-3 mt-1"></i><span>Special Education Teacher</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-green-400 mr-3 mt-1"></i><span>Secondary Teachers</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-green-400 mr-3 mt-1"></i><span>Primary Teachers</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-green-400 mr-3 mt-1"></i><span>Early Childhood Educator</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-green-400 mr-3 mt-1"></i><span>Teaching Assistant</span></li>
+            </ul></div>
+        </div>
+    </div>
+    
+    <div id="modal-hospitality-new" class="modal hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col">
+            <header class="flex justify-between items-center p-5 border-b"><h2 class="text-2xl font-bold text-blue-500">Hospitality Roles</h2><button class="modal-close-btn text-3xl font-light text-gray-500 hover:text-gray-800">&times;</button></header>
+            <div class="p-8 overflow-y-auto"><ul class="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-gray-700">
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Executive Chef</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Chef de Cuisine</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Chef de Partie</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Sous Chef</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Pastry Chef</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Line Cook</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Prep Cook</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Food Service Worker</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Kitchen Helper</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Dishwasher</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Waiter</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Front Office Staff</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Server</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>House Keeping</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-blue-400 mr-3 mt-1"></i><span>Pool Technicians</span></li>
+            </ul></div>
+        </div>
+    </div>
+    
+    <div id="modal-transport-new" class="modal hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col">
+            <header class="flex justify-between items-center p-5 border-b"><h2 class="text-2xl font-bold text-purple-500">Transport & Logistics Roles</h2><button class="modal-close-btn text-3xl font-light text-gray-500 hover:text-gray-800">&times;</button></header>
+            <div class="p-8 overflow-y-auto"><ul class="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-gray-700">
+                <li class="flex"><i class="fas fa-check-circle text-purple-400 mr-3 mt-1"></i><span>Transport Manager</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-purple-400 mr-3 mt-1"></i><span>Logistics Coordinator</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-purple-400 mr-3 mt-1"></i><span>Driver Light / Heavy Vehicles</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-purple-400 mr-3 mt-1"></i><span>Warehouse Operatives</span></li>
+                <li class="flex"><i class="fas fa-check-circle text-purple-400 mr-3 mt-1"></i><span>Dispatcher</span></li>
+            </ul></div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // --- Modal Functionality ---
+        const modalTriggers = document.querySelectorAll('.modal-trigger');
+        const closeButtons = document.querySelectorAll('.modal-close-btn');
+        const modals = document.querySelectorAll('.modal');
+
+        const openModal = (modalId) => {
+            const modal = document.querySelector(modalId);
+            if (modal) modal.classList.remove('hidden');
+        };
+
+        const closeModal = (modal) => {
+            if (modal) modal.classList.add('hidden');
+        };
+
+        modalTriggers.forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                const modalId = trigger.dataset.modalTarget;
+                openModal(modalId);
+            });
+        });
+
+        closeButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const modal = button.closest('.modal');
+                closeModal(modal);
+            });
+        });
+        
+        modals.forEach(modal => {
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal) {
+                    closeModal(modal);
+                }
+            });
+        });
+    });
+</script>
+
+        <section id="jobs" class="py-16 bg-gray-50" style="padding-top: 0rem;">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">Urgent Jobs</h2>
+                    <p class="text-xl text-gray-600">Latest opportunities available now</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job1" class="modal-trigger cursor-pointer">
+                            <img src="images/job/1.jpg" alt="Construction Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800">Construction Worker</h3>
+                                <p class="text-sm text-gray-500 mt-1">Romania / Construction</p>
+                            </div>
+                            <div class="mt-auto pt-4 flex justify-between items-center">
+                                <span class="text-2xl font-bold text-green-600">€800</span>
+                                <button data-modal-target="#modal-apply-form" data-job-title="Construction Worker" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job2" class="modal-trigger cursor-pointer">
+                            <img src="images/job/2.jpg" alt="Construction Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800">Painters, Masons, Driver..</h3>
+                                <p class="text-sm text-gray-500 mt-1">Romania / Construction</p>
+                            </div>
+                            <div class="mt-auto pt-4 flex justify-between items-center">
+                                <span class="text-2xl font-bold text-green-600">€800</span>
+                                <button data-modal-target="#modal-apply-form" data-job-title="Painters, Masons, Driver, Etc.." class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job3" class="modal-trigger cursor-pointer">
+                            <img src="images/job/3.jpg" alt="Hotel Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Chef</h3><p class="text-sm text-gray-500 mt-1">Romania / Hotel</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">€800</span><button data-modal-target="#modal-apply-form" data-job-title="Chef" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job4" class="modal-trigger cursor-pointer">
+                            <img src="images/job/4.jpg" alt="Hotel Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Pizza Maker</h3><p class="text-sm text-gray-500 mt-1">Romania / Hotel</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">€700</span><button data-modal-target="#modal-apply-form" data-job-title="Pizza Maker" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job5" class="modal-trigger cursor-pointer">
+                            <img src="images/job/5.jpg" alt="General Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Cleaner</h3><p class="text-sm text-gray-500 mt-1">Romania / General</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">€550</span><button data-modal-target="#modal-apply-form" data-job-title="Cleaner" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job6" class="modal-trigger cursor-pointer">
+                            <img src="images/job/6.jpg" alt="Hotel Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Chef, kitchen helper, Etc..</h3><p class="text-sm text-gray-500 mt-1">Romania / Hotel</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">270,000 LKR</span><button data-modal-target="#modal-apply-form" data-job-title="Chef, kitchen helper, Etc.." class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job7" class="modal-trigger cursor-pointer">
+                            <img src="images/job/7.jpg" alt="Agriculture Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Animal Farm Worker</h3><p class="text-sm text-gray-500 mt-1">Romania / Agriculture</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">€650</span><button data-modal-target="#modal-apply-form" data-job-title="Animal Farm Worker" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job8" class="modal-trigger cursor-pointer">
+                            <img src="images/job/8.jpg" alt="Construction Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Carpenters</h3><p class="text-sm text-gray-500 mt-1">Romania / Construction</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">€850</span><button data-modal-target="#modal-apply-form" data-job-title="Carpenters" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job9" class="modal-trigger cursor-pointer">
+                            <img src="images/job/9.jpg" alt="Transport Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Driver</h3><p class="text-sm text-gray-500 mt-1">Kuwait / Transport</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">N/A</span><button data-modal-target="#modal-apply-form" data-job-title="Driver" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job10" class="modal-trigger cursor-pointer">
+                            <img src="images/job/10.jpg" alt="Transport Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Courier Bike Rider</h3><p class="text-sm text-gray-500 mt-1">Romania / Transport</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">250,000 LKR</span><button data-modal-target="#modal-apply-form" data-job-title="Courier Bike Rider" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job11" class="modal-trigger cursor-pointer">
+                            <img src="images/job/11.jpg" alt="Hospitality Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Street Cleaners</h3><p class="text-sm text-gray-500 mt-1">Romania / Hospitality</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">€650</span><button data-modal-target="#modal-apply-form" data-job-title="Street Cleaners" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                        <div data-modal-target="#modal-img-job12" class="modal-trigger cursor-pointer">
+                            <img src="images/job/12.jpg" alt="Construction Job" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <div class="p-6 flex flex-col">
+                            <div><h3 class="text-xl font-bold text-gray-800">Mason and Steel Fixer</h3><p class="text-sm text-gray-500 mt-1">Romania / Construction</p></div>
+                            <div class="mt-auto pt-4 flex justify-between items-center"><span class="text-2xl font-bold text-green-600">€800</span><button data-modal-target="#modal-apply-form" data-job-title="Mason and Steel Fixer" class="modal-trigger bg-blue-600 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Apply Now</button></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        </main>
+
+    <div id="all-modals-container">
+        <div id="modal-img-job1" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/1.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job2" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/2.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job3" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/3.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job4" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/4.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job5" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/5.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job6" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/6.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job7" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/7.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job8" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/8.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job9" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/9.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job10" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/10.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job11" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/11.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        <div id="modal-img-job12" class="modal hidden fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"><div class="relative w-auto max-w-2xl max-h-[90vh]"><button class="modal-close-btn absolute -top-3 -right-3 bg-white rounded-full h-9 w-9 text-2xl flex items-center justify-center text-gray-600 hover:text-black hover:scale-110 transition-transform">&times;</button><img src="images/job/12.jpg" alt="Job Ad" class="rounded-lg max-h-[90vh]"></div></div>
+        
+        <div id="modal-apply-form" class="modal hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+            <div class="bg-white rounded-xl shadow-2xl w-full max-w-lg max-h-[90vh] flex flex-col">
+                <header class="flex justify-between items-center p-5 border-b">
+                    <h2 id="apply-form-title" class="text-2xl font-bold text-gray-800">Apply for Job</h2>
+                    <button class="modal-close-btn text-3xl font-light text-gray-500 hover:text-gray-800">&times;</button>
+                </header>
+                <div class="p-8 overflow-y-auto">
+                    <form class="space-y-4">
+                        <input type="hidden" name="jobInterest" id="job-interest-field">
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Full Name *</label>
+                            <input type="text" name="fullName" placeholder="John Doe" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Email *</label>
+                            <input type="email" name="email" placeholder="you@example.com" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Phone Number *</label>
+                            <input type="tel" name="phone" placeholder="+94 77 123 4567" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tell us about your qualifications..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 rounded-lg hover:shadow-lg transition-all duration-300 font-semibold text-lg">
+                            Send Application
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const modalTriggers = document.querySelectorAll('.modal-trigger');
+            const closeButtons = document.querySelectorAll('.modal-close-btn');
+            const modals = document.querySelectorAll('.modal');
+
+            const applyFormTitle = document.getElementById('apply-form-title');
+            const jobInterestField = document.getElementById('job-interest-field');
+
+            const openModal = (modalId) => {
+                const modal = document.querySelector(modalId);
+                if (modal) modal.classList.remove('hidden');
+            };
+
+            const closeModal = (modal) => {
+                if (modal) modal.classList.add('hidden');
+            };
+
+            modalTriggers.forEach(trigger => {
+                trigger.addEventListener('click', () => {
+                    const modalId = trigger.dataset.modalTarget;
+
+                    if (modalId === '#modal-apply-form') {
+                        const jobTitle = trigger.dataset.jobTitle;
+                        if (applyFormTitle) {
+                            applyFormTitle.innerText = `Apply for: ${jobTitle}`;
+                        }
+                        if (jobInterestField) {
+                            jobInterestField.value = jobTitle;
+                        }
+                    }
+                    
+                    openModal(modalId);
+                });
+            });
+
+            closeButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const modal = button.closest('.modal');
+                    closeModal(modal);
+                });
+            });
+            
+            modals.forEach(modal => {
+                modal.addEventListener('click', (event) => {
+                    if (event.target === modal) {
+                        closeModal(modal);
+                    }
+                });
+            });
+        });
+    </script>
+
+<section id="destinations" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Top Work Destinations</h2>
+            <p class="text-xl text-gray-600">Bridging Sri Lankan talent with global opportunities</p>
+        </div>
+
+        <div class="mb-12 rounded-xl overflow-hidden shadow-2xl">
+            <img src="images/map.jpg" alt="Our Destinations Map" class="w-full h-auto object-cover">
+        </div>
+        <div class="mb-16">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <div class="flex flex-col rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-center">
+                        <h3 class="text-xl font-bold text-white">Kuwait</h3>
+                    </div>
+                    <div class="bg-gray-50 p-5 flex-grow">
+                        <p class="text-gray-700 leading-relaxed">
+                            Kuwait is a long-standing destination for Sri Lankan domestic workers, drivers, hospitality professionals, and engineers, offering tax-free income and structured work environments.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-center">
+                        <h3 class="text-xl font-bold text-white">Bahrain</h3>
+                    </div>
+                    <div class="bg-gray-50 p-5 flex-grow">
+                        <p class="text-gray-700 leading-relaxed">
+                            Bahrain continues to attract Sri Lankan talent in sectors such as healthcare, hospitality, retail, and mechanical trades — known for its supportive work culture and growing job market.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-center">
+                        <h3 class="text-xl font-bold text-white">Qatar</h3>
+                    </div>
+                    <div class="bg-gray-50 p-5 flex-grow">
+                        <p class="text-gray-700 leading-relaxed">
+                            The Qatar job market is robust, driven by significant investments in infrastructure, energy, and tourism. It features a high demand for skilled professionals in sectors like construction, engineering, education, and finance.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-center">
+                        <h3 class="text-xl font-bold text-white">UAE</h3>
+                    </div>
+                    <div class="bg-gray-50 p-5 flex-grow">
+                        <p class="text-gray-700 leading-relaxed">
+                            The UAE job market is dynamic and diverse, driven by a strong economy and a strategic location. It offers opportunities across various sectors, including finance, technology, hospitality, healthcare, and construction.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-center">
+                        <h3 class="text-xl font-bold text-white">Saudi Arabia</h3>
+                    </div>
+                    <div class="bg-gray-50 p-5 flex-grow">
+                        <p class="text-gray-700 leading-relaxed">
+                            The Saudi Arabia job market in construction is booming, fueled by the government's Vision 2030 initiative, which aims to diversify the economy and enhance infrastructure.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-4 text-center">
+                        <h3 class="text-xl font-bold text-white">Turkey</h3>
+                    </div>
+                    <div class="bg-gray-50 p-5 flex-grow">
+                        <p class="text-gray-700 leading-relaxed">
+                            Turkey continues to offer job placements for professionals in tourism, food and beverage, healthcare, and construction — attracting Sri Lankan talent with competitive packages and cultural harmony.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-green-600 to-teal-600 p-4 text-center">
+                        <h3 class="text-xl font-bold text-white">Romania</h3>
+                    </div>
+                    <div class="bg-gray-50 p-5 flex-grow">
+                        <p class="text-gray-700 leading-relaxed">
+                           Romania has emerged as a key destination for Sri Lankan workers, offering skilled and semi-skilled job opportunities in sectors like construction, hospitality, manufacturing, and agriculture.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-green-600 to-teal-600 p-4 text-center">
+                        <h3 class="text-xl font-bold text-white">Russia</h3>
+                    </div>
+                    <div class="bg-gray-50 p-5 flex-grow">
+                        <p class="text-gray-700 leading-relaxed">
+                           As one of the world's largest economies, Russia offers exciting opportunities for electricians, drivers, hospitality workers, and caregivers from Sri Lanka.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="py-20 bg-gray-50" style="padding-top: 0rem;">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Get In Touch</h2>
+            <p class="text-xl text-gray-600">Whether you're a job seeker, employer, or industry partner, we're here to help.</p>
+        </div>
+
+        <div class="grid lg:grid-cols-5 gap-10 max-w-7xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
+            
+            <div class="lg:col-span-2 bg-gradient-to-b from-blue-600 to-indigo-700 text-white p-8 md:p-10">
+                <h3 class="text-3xl font-bold mb-6">Contact Information</h3>
+                
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <i class="fas fa-map-marker-alt text-xl mt-1 opacity-80"></i>
+                        <div>
+                            <h4 class="font-semibold">Address</h4>
+                            <p class="opacity-90">No.107 1/1, Stanley Thilakarathna Mawatha, Nugegoda, Sri Lanka</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <i class="fas fa-phone text-xl mt-1 opacity-80"></i>
+                        <div>
+                            <h4 class="font-semibold">Hotline</h4>
+                            <p class="opacity-90">+94 (0) 71 431 3671</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <i class="fab fa-whatsapp text-xl mt-1 opacity-80"></i>
+                        <div>
+                            <h4 class="font-semibold">WhatsApp</h4>
+                            <p class="opacity-90">+94 (0) 76 380 4006</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <i class="fas fa-envelope text-xl mt-1 opacity-80"></i>
+                        <div>
+                            <h4 class="font-semibold">Email</h4>
+                            <p class="opacity-90">info@champikaexporters.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-8 border-blue-400/50">
+
+                <h3 class="text-2xl font-bold mb-4">Opening Hours</h3>
+                 <div class="space-y-2 opacity-90">
+                    <p class="flex justify-between"><span>Monday - Friday</span> <span>8:30 AM - 5:30 PM</span></p>
+                    <p class="flex justify-between"><span>Saturday</span> <span>8:30 AM - 1:30 PM</span></p>
+                    <p class="flex justify-between"><span>Sunday</span> <span>Closed</span></p>
+                </div>
+
+                <div class="mt-8 rounded-lg overflow-hidden">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.229189620573!2d79.90091387499596!3d6.862899193136208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a31a57c0933%3A0x94f38d4f0a4f9136!2sStanley%20Thilakarathna%20Mawatha%2C%20Nugegoda!5e0!3m2!1sen!2slk!4v1721406873327!5m2!1sen!2slk" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="lg:col-span-3 p-8 md:p-10">
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">Send us a Message</h3>
+                <form class="space-y-5" id="enquiry-form">
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Full Name *</label>
+                        <input type="text" name="fullName" placeholder="John Doe" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition" required>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Email *</label>
+                        <input type="email" name="email" placeholder="you@example.com" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition" required>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Phone Number *</label>
+                        <input type="tel" name="phone" placeholder="+94 77 123 4567" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition" required>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Job Interest</label>
+                        <select name="jobInterest" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition bg-white">
+                            <option value="">Select a category</option>
+                            <option value="healthcare">Healthcare</option>
+                            <option value="construction">Construction & Engineering</option>
+                            <option value="education">Education</option>
+                            <option value="hospitality">Hospitality & Tourism</option>
+                            <option value="transport">Transport, Shipping & IT</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Message</label>
+                        <textarea name="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition" placeholder="Tell us about your requirements or questions..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 rounded-lg hover:shadow-lg transition-all duration-300 font-semibold text-lg">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="bg-blue-600 text-white p-2 rounded-lg">
+                            <i class="fas fa-users text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold">Champika Exporters</h3>
+                            <p class="text-sm text-gray-400">Est. 1979</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400">Pioneering human resource excellence in Sri Lanka since 1979, connecting Sri Lankan talent with global opportunities.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#home" class="hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="#about" class="hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="#services" class="hover:text-white transition duration-300">Services</a></li>
+                        <li><a href="#jobs" class="hover:text-white transition duration-300">Jobs</a></li>
+                        <li><a href="#contact" class="hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Industries</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Healthcare</li>
+                        <li>Construction & Engineering</li>
+                        <li>Education</li>
+                        <li>Hospitality & Tourism</li>
+                        <li>Transport & IT</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center"><i class="fas fa-phone mr-2"></i>+94 (0) 71 431 3671</li>
+                        <li class="flex items-center"><i class="fas fa-envelope mr-2"></i>info@champikaexporters.com</li>
+                        <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2"></i>Nugegoda, Sri Lanka</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Champika Exporters (Pvt) Ltd. All rights reserved. | License No: 110</p>
+            </div>
+        </div>
+    </footer>
+
+<div id="registration-forms-container">
+
+    <div id="modal-seeker-form" class="modal hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-2xl max-h-[90vh] flex flex-col">
+            <header class="flex justify-between items-center p-5 border-b">
+                <h2 class="text-2xl font-bold text-gray-800">Job Seeker Registration</h2>
+                <button class="modal-close-btn text-3xl font-light text-gray-500 hover:text-gray-800">&times;</button>
+            </header>
+            <div class="p-8 overflow-y-auto">
+                <form class="space-y-4">
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Full Name *</label>
+                            <input type="text" name="fullName" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Nationality *</label>
+                            <input type="text" name="nationality" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Passport Number *</label>
+                            <input type="text" name="passport" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Contact Phone *</label>
+                            <input type="tel" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div class="md:col-span-2">
+                            <label class="block text-gray-700 font-medium mb-2">Address *</label>
+                            <input type="text" name="address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Date of Birth *</label>
+                            <input type="date" name="dob" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Gender *</label>
+                            <select name="gender" class="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="md:col-span-2">
+                            <label class="block text-gray-700 font-medium mb-2">Destination Country *</label>
+                            <select name="destination" class="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option>Romania</option>
+                                <option>Kuwait</option>
+                                <option>Bahrain</option>
+                                <option>Qatar</option>
+                                <option>UAE</option>
+                                <option>Saudi Arabia</option>
+                                <option>Turkey</option>
+                                <option>Russia</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 rounded-lg hover:shadow-lg transition-all duration-300 font-semibold text-lg">
+                        Submit Registration
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-employer-form" class="modal hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-2xl max-h-[90vh] flex flex-col">
+            <header class="flex justify-between items-center p-5 border-b">
+                <h2 class="text-2xl font-bold text-gray-800">Employer Registration</h2>
+                <button class="modal-close-btn text-3xl font-light text-gray-500 hover:text-gray-800">&times;</button>
+            </header>
+            <div class="p-8 overflow-y-auto">
+                <form class="space-y-4">
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Company Name *</label>
+                        <input type="text" name="companyName" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Contact Person *</label>
+                            <input type="text" name="ContactPerson " class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Designation *</label>
+                            <input type="text" name="Designation " class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                     <div>
+                        <label class="block text-gray-700 font-medium mb-2">Email *</label>
+                        <input type="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                     <div>
+                        <label class="block text-gray-700 font-medium mb-2">Phone Number *</label>
+                        <input type="tel" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Address</label>
+                        <input type="text" name="address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Message</label>
+                        <textarea name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tell us about your requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-gradient-to-r from-green-600 to-teal-600 text-white py-3 px-6 rounded-lg hover:shadow-lg transition-all duration-300 font-semibold text-lg">
+                        Submit Registration
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
